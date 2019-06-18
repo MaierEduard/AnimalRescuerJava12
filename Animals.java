@@ -10,6 +10,12 @@ public class Animals {
     private String favoriteFood;
     private String favoriteActivity;
 
+    public int numbersForSum(int number1, int number2) {
+        int sum = number1 + number2;
+        System.out.println(sum);
+        return sum;
+    }
+
 
 
 // Constructors

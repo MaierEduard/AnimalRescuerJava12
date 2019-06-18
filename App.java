@@ -39,6 +39,9 @@ public class App {
         secondAdopter.playWithPats(new Animals("Adolf"), new Activity("ball"));
 
 
+
+        firstAnimal.numbersForSum(1, 4);
+
     }
 
 }
