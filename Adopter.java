@@ -6,11 +6,11 @@ public class Adopter {
     private double acountMoney;
 
     public void feedAnimal(Animals animals, AnimalFood animalFood) {
-        System.out.println( " Andrei just gave some " + animalFood.getName() + " food to " + animals.getName());
+        System.out.println(getName() + " just gave some " + animalFood.getName() + " food to " + animals.getName());
     }
 
     public void playWithPats(Animals animals, Activity activity) {
-        System.out.println(" Andrei plays with " + animals.getName() + " with the " + activity.getName());
+        System.out.println(getName() + " plays with " + animals.getName() + " with the " + activity.getName());
     }
 
 

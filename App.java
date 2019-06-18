@@ -31,12 +31,16 @@ public class App {
         System.out.println(food2.getExpirationDate());
 
 
-        Animals secondAnimal = new Animals(6);
+        Animals secondAnimal = new Animals("Azorel");
         Animals hedgehog = new Hedgehog("Adolf");
 
         Adopter secondAdopter = new Adopter("Andrei");
         secondAdopter.feedAnimal(new Animals("Tryndamere"), new AnimalFood("Chiken"));
         secondAdopter.playWithPats(new Animals("Adolf"), new Activity("ball"));
+
+        Animals firstDragon = new Dragon("dodo");
+        firstDragon.animalSpirit("Good");
+        firstAnimal.animalSpirit(" wonderful");
 
 
 

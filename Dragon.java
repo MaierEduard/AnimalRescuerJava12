@@ -5,9 +5,13 @@ public class Dragon extends Animals {
    private int fireLevel;
    private int wings;
 
-    public Dragon(int age) {
-        super(age);
+    @Override
+    public void animalSpirit(String mood) {
+        super.animalSpirit(mood);
+        System.out.println(getName() + "is feels" + mood);
     }
+
+
 
     public Dragon(String name, int age) {
         super(name, age);

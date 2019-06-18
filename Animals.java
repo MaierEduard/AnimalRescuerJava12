@@ -16,12 +16,13 @@ public class Animals {
         return sum;
     }
 
+    public void animalSpirit(String mood) {
+        System.out.println(getName() + "is feels" + mood);
+
+    }
 
 
 // Constructors
-    public Animals(int age) {
-        this.age = age;
-    }
 
     public Animals(String name,int age) {
         this.name = name;

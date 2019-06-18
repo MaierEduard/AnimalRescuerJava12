@@ -4,9 +4,6 @@ public class Hedgehog extends Animals {
 
    private int Spike;
 
-    public Hedgehog(int age) {
-        super(age);
-    }
 
     public Hedgehog(String name, int age) {
         super(name, age);
